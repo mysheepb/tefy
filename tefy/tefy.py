@@ -12,7 +12,7 @@ class OxGaWrap(object):
         :param lang: value of the oxgarage.lang conversion property
         """
         self.response = None
-        self._req_baseurl = 'https://oxgarage.tei-c.org/ege-webservice/Conversions/'
+        self._req_baseurl = 'https://oxgarage-humanum.tei-c.org/ege-webservice/Conversions/'
         self._convcodes = {
             'in': {
                 'odt': 'odt%3Aapplication%3Avnd.oasis.opendocument.text/',
