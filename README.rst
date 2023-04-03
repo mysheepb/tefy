@@ -6,11 +6,11 @@ tefy
 ``tefy`` was born out of the need to streamline the conversion of doc,
 docx and odt documents into TEI XML when using Python scripts. It's a
 very basic wrapper around the OxGarage_
-API at https://oxgarage-humanum.tei-c.org/ege-webservice/ and
+API at https://teigarage.tei-c.org/ege-webservice/ and
 covers a small subset of conversions, namely from doc, docx and odt to TEI
 XML. The conversion result is output as an lxml_ etree Element. 
 
-A browser-based conversion service is available at https://oxgarage.tei-c.org.
+A browser-based conversion service is available at https:/teigarage.tei-c.org.
 
 .. _OxGarage: https://github.com/TEIC/oxgarage
 .. _lxml: https://github.com/lxml/lxml
